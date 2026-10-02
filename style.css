@@ -79,8 +79,12 @@ input::placeholder{
     visibility: hidden;
 }
 
-.error-visible{
+.active{
     visibility: visible;
+}
+
+.border{
+    border: 1px solid var(--Red-400);
 }
 
 .btn:hover{

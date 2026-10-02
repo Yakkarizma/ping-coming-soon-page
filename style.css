@@ -20,3 +20,109 @@ body{
     font-family: "Libre Franklin", sans-serif;
     font-weight: 300;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content-container{
+    width: 550px;
+    text-align: center;
+}
+
+.notify-container{
+    margin-bottom: 60px;
+}
+
+.notify{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+input::placeholder{
+    color: var(--Gray-400);
+}
+
+.input{
+    font-family: "Libre Franklin", sans-serif;
+    flex: 2;
+    border: 1px solid var(--Gray-400);
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.btn{
+    flex: 0.75;
+    border: none;
+    background-color: var(--Blue-500);
+    color: white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 500;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.error-message{
+    color: var(--Red-400);
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 5px;
+    padding: 0px 20px;
+    text-align: left;
+    visibility: hidden;
+}
+
+.error-visible{
+    visibility: visible;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.dashboard{
+    margin-bottom: 50px;
+}
+
+.dashboard img{
+    width: 100%;
+    height: 100%;
+}
+
+.social-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.social-buttons i{
+    color: var(--Blue-500);
+    margin: 0px 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--Blue-200);
+    border-radius: 50%;
+}
+
+i:hover{
+    cursor: pointer;
+    color: white;
+    background-color: var(--Blue-500);
+}
+
+.copyright{
+    font-size: 12px;
+    color: var(--Gray-400);
+
+}

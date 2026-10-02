@@ -124,5 +124,13 @@ i:hover{
 .copyright{
     font-size: 12px;
     color: var(--Gray-400);
+}
 
+@media (max-width: 600px){
+    .content-container{
+        width: 350px;
+    }
+    .notify{
+        flex-direction: column;
+    }
 }
